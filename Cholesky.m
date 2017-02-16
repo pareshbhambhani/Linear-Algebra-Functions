@@ -8,7 +8,7 @@ function varargout = Cholesky(mat,varargin)
 %
 % Inputs:       mat is a symmetric, positive definite square matrix
 %               
-%               Note: myCholesky() forces mat symmetric by only accesing
+%               Note: Cholesky() forces mat symmetric by only accesing
 %               its upper triangle and assuming mat(i,j) = mat(j,i)
 %               
 %               mode can be {'upper','lower','UD','LD'}.
