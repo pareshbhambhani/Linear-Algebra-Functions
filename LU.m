@@ -6,16 +6,16 @@ function [L U varargout] = LU(mat)
 %
 % Inputs:       mat is a square nonsingular matrix
 %               
-% Outputs:      [L U] = myLU(mat);
+% Outputs:      [L U] = LU(mat);
 %               L is a permuted lower triangular matrix and U is an upper
 %               triangular matrix such that L * U = mat
 %
-%               [L U P] = myLU(mat);
+%               [L U P] = LU(mat);
 %               L is a lower triangular matrix, U is an upper triangular
 %               matrix, and P is a permutation matrix such that
 %               L * U = P * mat. Note: P is unitary, so P' * L * U = mat;
 %
-%               [L U P detSign] = myLU(mat);
+%               [L U P detSign] = LU(mat);
 %               L is a lower triangular matrix, U is an upper triangular
 %               matrix, and P is a permutation matrix such that
 %               L * U = P * mat. Note: P is unitary, so P' * L * U = mat;
